@@ -1,0 +1,292 @@
+2018-03-08 13:47:44.476 [http-nio-8080-exec-7] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 13:47:44.477 [http-nio-8080-exec-7] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 13:47:50.601 [http-nio-8080-exec-8] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 13:47:50.602 [http-nio-8080-exec-8] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 13:47:51.079 [http-nio-8080-exec-9] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 13:47:51.080 [http-nio-8080-exec-9] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 13:49:41.497 [main] INFO  com.e1858.building.BuildingApplication - Starting BuildingApplication on DESKTOP-NADFQ1H with PID 10748 (E:\GithubProject\Spring-boot\target\classes started by Feng2018 in E:\GithubProject\Spring-boot)
+2018-03-08 13:49:41.501 [main] INFO  com.e1858.building.BuildingApplication - No active profile set, falling back to default profiles: default
+2018-03-08 13:49:41.593 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57ea113a: startup date [Thu Mar 08 13:49:41 CST 2018]; root of context hierarchy
+2018-03-08 13:49:42.970 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c0aee5c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-08 13:49:43.323 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-08 13:49:43.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-08 13:49:43.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-08 13:49:43.352 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-08 13:49:43.357 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;F:\java\jdk1.8\bin;F:\Android_SDK\platform-tools;F:\Android_SDK\tools;F:\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\DB\bin;D:\Program Files\Git\cmd;C:\Users\Feng2018\AppData\Local\Microsoft\WindowsApps;;.]
+2018-03-08 13:49:43.493 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-08 13:49:43.493 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1900 ms
+2018-03-08 13:49:43.654 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-08 13:49:43.660 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-08 13:49:43.660 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-08 13:49:43.661 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-08 13:49:43.661 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-08 13:49:43.842 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-03-08 13:49:44.020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-03-08 13:49:44.069 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-08 13:49:44.174 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-08 13:49:44.256 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-08 13:49:44.257 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-08 13:49:44.307 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-08 13:49:44.446 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-08 13:49:45.007 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 13:49:46.035 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@57ea113a: startup date [Thu Mar 08 13:49:41 CST 2018]; root of context hierarchy
+2018-03-08 13:49:46.091 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-08 13:49:46.128 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/greeting]}" onto public com.e1858.building.models.Greeting com.e1858.building.controller.GreetingController.greeting(java.lang.String)
+2018-03-08 13:49:46.128 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.e1858.building.controller.HelloController.say()
+2018-03-08 13:49:46.134 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAllStudent]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.findAllStudent()
+2018-03-08 13:49:46.134 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addStudent],methods=[POST]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.addStudent(java.lang.String,java.lang.Integer)
+2018-03-08 13:49:46.134 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteStudent/{id}],methods=[DELETE]}" onto public void com.e1858.building.controller.StudentController.deleteStudent(java.lang.Integer)
+2018-03-08 13:49:46.135 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudentByName/{id}],methods=[GET]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.String)
+2018-03-08 13:49:46.135 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudent/{id}],methods=[GET]}" onto public java.util.Optional<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.Integer)
+2018-03-08 13:49:46.135 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateStudent/{id}],methods=[PUT]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.updateStudent(java.lang.Integer,java.lang.String,java.lang.Integer)
+2018-03-08 13:49:46.136 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteUser/{id}]}" onto public boolean com.e1858.building.controller.UserController.deleteUser(int)
+2018-03-08 13:49:46.136 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUser]}" onto public boolean com.e1858.building.controller.UserController.inserUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 13:49:46.137 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateUser/{id}],methods=[POST]}" onto public boolean com.e1858.building.controller.UserController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2018-03-08 13:49:46.137 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUserById/{id}]}" onto public com.e1858.building.models.User com.e1858.building.controller.UserController.findUserById(int)
+2018-03-08 13:49:46.137 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUsers]}" onto public java.util.List<com.e1858.building.models.User> com.e1858.building.controller.UserController.findAllUser()
+2018-03-08 13:49:46.140 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-08 13:49:46.142 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-08 13:49:46.195 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 13:49:46.195 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 13:49:46.247 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 13:49:46.633 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-08 13:49:46.636 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-08 13:49:46.645 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-08 13:49:46.659 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-08 13:49:46.673 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-08 13:49:46.691 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-08 13:49:46.694 [main] INFO  com.e1858.building.BuildingApplication - Started BuildingApplication in 5.75 seconds (JVM running for 6.725)
+2018-03-08 13:50:27.403 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-08 13:50:27.403 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-08 13:50:27.427 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-03-08 13:50:27.450 [http-nio-8080-exec-1] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 13:50:27.450 [http-nio-8080-exec-1] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 13:50:41.533 [http-nio-8080-exec-2] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 13:50:41.534 [http-nio-8080-exec-2] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 14:03:29.481 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.e1858.building.BuildingApplicationTests], using SpringBootContextLoader
+2018-03-08 14:03:29.491 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.e1858.building.BuildingApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-03-08 14:03:29.492 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.e1858.building.BuildingApplicationTests]: BuildingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-03-08 14:03:29.672 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.e1858.building.BuildingApplication for test class com.e1858.building.BuildingApplicationTests
+2018-03-08 14:03:29.819 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-03-08 14:03:29.849 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@48d5f34e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fc258b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6ff65192, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2dd80673, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4af0df05, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57ea113a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@acdb094, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@674bd420, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b0f373b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ceb80a1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b45dcb8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7216fb24]
+2018-03-08 14:03:30.415 [main] INFO  com.e1858.building.BuildingApplicationTests - Starting BuildingApplicationTests on DESKTOP-NADFQ1H with PID 13628 (started by Feng2018 in E:\GithubProject\Spring-boot)
+2018-03-08 14:03:30.417 [main] INFO  com.e1858.building.BuildingApplicationTests - No active profile set, falling back to default profiles: default
+2018-03-08 14:03:30.453 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@11963225: startup date [Thu Mar 08 14:03:30 CST 2018]; root of context hierarchy
+2018-03-08 14:03:32.281 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96b018ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-08 14:03:32.622 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-03-08 14:03:32.950 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-03-08 14:03:33.010 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-08 14:03:33.029 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-08 14:03:33.142 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-08 14:03:33.144 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-08 14:03:33.224 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-08 14:03:33.449 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-08 14:03:34.440 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 14:03:35.734 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2018-03-08 14:03:35.734 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-03-08 14:03:35.953 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-08 14:03:36.139 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/greeting]}" onto public com.e1858.building.models.Greeting com.e1858.building.controller.GreetingController.greeting(java.lang.String)
+2018-03-08 14:03:36.143 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.e1858.building.controller.HelloController.say()
+2018-03-08 14:03:36.163 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteStudent/{id}],methods=[DELETE]}" onto public void com.e1858.building.controller.StudentController.deleteStudent(java.lang.Integer)
+2018-03-08 14:03:36.167 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAllStudent]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.findAllStudent()
+2018-03-08 14:03:36.168 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateStudent/{id}],methods=[PUT]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.updateStudent(java.lang.Integer,java.lang.String,java.lang.Integer)
+2018-03-08 14:03:36.168 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addStudent],methods=[POST]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.addStudent(java.lang.String,java.lang.Integer)
+2018-03-08 14:03:36.170 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudentByName/{id}],methods=[GET]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.String)
+2018-03-08 14:03:36.175 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudent/{id}],methods=[GET]}" onto public java.util.Optional<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.Integer)
+2018-03-08 14:03:36.185 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateUser/{id}],methods=[POST]}" onto public boolean com.e1858.building.controller.UserController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2018-03-08 14:03:36.186 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteUser/{id}]}" onto public boolean com.e1858.building.controller.UserController.deleteUser(int)
+2018-03-08 14:03:36.188 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUser]}" onto public boolean com.e1858.building.controller.UserController.inserUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 14:03:36.192 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUserById/{id}]}" onto public com.e1858.building.models.User com.e1858.building.controller.UserController.findUserById(int)
+2018-03-08 14:03:36.193 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUsers]}" onto public java.util.List<com.e1858.building.models.User> com.e1858.building.controller.UserController.findAllUser()
+2018-03-08 14:03:36.202 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-08 14:03:36.210 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-08 14:03:36.355 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 14:03:36.356 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 14:03:36.412 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 14:03:36.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@11963225: startup date [Thu Mar 08 14:03:30 CST 2018]; root of context hierarchy
+2018-03-08 14:03:37.196 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1461 ms
+2018-03-08 14:03:37.873 [main] INFO  com.e1858.building.BuildingApplicationTests - Started BuildingApplicationTests in 7.954 seconds (JVM running for 9.862)
+2018-03-08 14:03:38.520 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2018-03-08 14:03:38.521 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-03-08 14:03:38.523 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 2 ms
+2018-03-08 14:03:38.611 [main] INFO  com.e1858.building.controller.HelloController - Logback.
+2018-03-08 14:03:38.611 [main] ERROR com.e1858.building.controller.HelloController - Hello! Spring boot .
+2018-03-08 14:03:38.650 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@11963225: startup date [Thu Mar 08 14:03:30 CST 2018]; root of context hierarchy
+2018-03-08 14:03:38.655 [Thread-3] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 14:03:38.657 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-03-08 14:03:38.664 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-03-08 15:38:43.924 [main] INFO  com.e1858.building.BuildingApplication - Starting BuildingApplication on DESKTOP-NADFQ1H with PID 14068 (E:\GithubProject\Spring-boot\target\classes started by Feng2018 in E:\GithubProject\Spring-boot)
+2018-03-08 15:38:43.934 [main] INFO  com.e1858.building.BuildingApplication - No active profile set, falling back to default profiles: default
+2018-03-08 15:38:44.001 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@686449f9: startup date [Thu Mar 08 15:38:44 CST 2018]; root of context hierarchy
+2018-03-08 15:38:45.036 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e5dbf7b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-08 15:38:45.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-08 15:38:45.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:38:45.376 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-08 15:38:45.376 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-08 15:38:45.381 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;F:\java\jdk1.8\bin;F:\Android_SDK\platform-tools;F:\Android_SDK\tools;F:\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\DB\bin;D:\Program Files\Git\cmd;C:\Users\Feng2018\AppData\Local\Microsoft\WindowsApps;;.]
+2018-03-08 15:38:45.507 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-08 15:38:45.507 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1506 ms
+2018-03-08 15:38:45.652 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-08 15:38:45.657 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-08 15:38:45.658 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-08 15:38:45.658 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-08 15:38:45.658 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-08 15:38:45.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-03-08 15:38:45.977 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-03-08 15:38:46.024 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:38:46.114 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-08 15:38:46.191 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-08 15:38:46.193 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-08 15:38:46.236 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-08 15:38:46.357 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-08 15:38:46.873 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:38:47.844 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@686449f9: startup date [Thu Mar 08 15:38:44 CST 2018]; root of context hierarchy
+2018-03-08 15:38:47.884 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-08 15:38:47.937 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/greeting]}" onto public com.e1858.building.models.Greeting com.e1858.building.controller.GreetingController.greeting(java.lang.String)
+2018-03-08 15:38:47.938 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.e1858.building.controller.HelloController.say()
+2018-03-08 15:38:47.943 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAllStudent]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.findAllStudent()
+2018-03-08 15:38:47.944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateStudent/{id}],methods=[PUT]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.updateStudent(java.lang.Integer,java.lang.String,java.lang.Integer)
+2018-03-08 15:38:47.944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addStudent],methods=[POST]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.addStudent(java.lang.String,java.lang.Integer)
+2018-03-08 15:38:47.944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteStudent/{id}],methods=[DELETE]}" onto public void com.e1858.building.controller.StudentController.deleteStudent(java.lang.Integer)
+2018-03-08 15:38:47.944 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudentByName/{id}],methods=[GET]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.String)
+2018-03-08 15:38:47.945 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudent/{id}],methods=[GET]}" onto public java.util.Optional<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.Integer)
+2018-03-08 15:38:47.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteUser/{id}]}" onto public boolean com.e1858.building.controller.UserController.deleteUser(int)
+2018-03-08 15:38:47.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUsers]}" onto public java.util.List<com.e1858.building.models.User> com.e1858.building.controller.UserController.findAllUser()
+2018-03-08 15:38:47.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUserById/{id}]}" onto public com.e1858.building.models.User com.e1858.building.controller.UserController.findUserById(int)
+2018-03-08 15:38:47.946 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUser]}" onto public boolean com.e1858.building.controller.UserController.inserUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 15:38:47.947 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateUser],methods=[POST]}" onto public boolean com.e1858.building.controller.UserController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 15:38:47.950 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-08 15:38:47.951 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-08 15:38:48.002 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:38:48.002 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:38:48.053 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:38:48.395 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-08 15:38:48.396 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-08 15:38:48.402 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-08 15:38:48.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:38:48.424 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-08 15:38:48.439 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-08 15:38:48.441 [main] INFO  com.e1858.building.BuildingApplication - Started BuildingApplication in 5.083 seconds (JVM running for 5.963)
+2018-03-08 15:40:34.197 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-08 15:40:34.198 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-08 15:40:34.224 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-03-08 15:43:14.476 [main] INFO  com.e1858.building.BuildingApplication - Starting BuildingApplication on DESKTOP-NADFQ1H with PID 7808 (E:\GithubProject\Spring-boot\target\classes started by Feng2018 in E:\GithubProject\Spring-boot)
+2018-03-08 15:43:14.478 [main] INFO  com.e1858.building.BuildingApplication - No active profile set, falling back to default profiles: default
+2018-03-08 15:43:14.589 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399c4be1: startup date [Thu Mar 08 15:43:14 CST 2018]; root of context hierarchy
+2018-03-08 15:43:15.470 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d021fb0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-08 15:43:15.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-08 15:43:15.730 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:43:15.739 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-08 15:43:15.740 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-08 15:43:15.744 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;F:\java\jdk1.8\bin;F:\Android_SDK\platform-tools;F:\Android_SDK\tools;F:\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\DB\bin;D:\Program Files\Git\cmd;C:\Users\Feng2018\AppData\Local\Microsoft\WindowsApps;;.]
+2018-03-08 15:43:15.860 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-08 15:43:15.860 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1271 ms
+2018-03-08 15:43:15.981 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-08 15:43:15.986 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-08 15:43:15.986 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-08 15:43:15.986 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-08 15:43:15.987 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-08 15:43:16.121 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-03-08 15:43:16.273 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-03-08 15:43:16.311 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:43:16.323 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-08 15:43:16.463 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-08 15:43:16.464 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-08 15:43:16.500 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-08 15:43:16.600 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-08 15:43:17.068 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:43:17.859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@399c4be1: startup date [Thu Mar 08 15:43:14 CST 2018]; root of context hierarchy
+2018-03-08 15:43:17.888 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-08 15:43:17.917 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/greeting]}" onto public com.e1858.building.models.Greeting com.e1858.building.controller.GreetingController.greeting(java.lang.String)
+2018-03-08 15:43:17.918 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.e1858.building.controller.HelloController.say()
+2018-03-08 15:43:17.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateStudent/{id}],methods=[PUT]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.updateStudent(java.lang.Integer,java.lang.String,java.lang.Integer)
+2018-03-08 15:43:17.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addStudent],methods=[POST]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.addStudent(java.lang.String,java.lang.Integer)
+2018-03-08 15:43:17.924 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudentByName/{id}],methods=[GET]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.String)
+2018-03-08 15:43:17.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudent/{id}],methods=[GET]}" onto public java.util.Optional<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.Integer)
+2018-03-08 15:43:17.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteStudent/{id}],methods=[DELETE]}" onto public void com.e1858.building.controller.StudentController.deleteStudent(java.lang.Integer)
+2018-03-08 15:43:17.925 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAllStudent]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.findAllStudent()
+2018-03-08 15:43:17.926 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUser]}" onto public boolean com.e1858.building.controller.UserController.inserUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 15:43:17.926 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUsers]}" onto public java.util.List<com.e1858.building.models.User> com.e1858.building.controller.UserController.findAllUser()
+2018-03-08 15:43:17.926 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUserById/{id}]}" onto public com.e1858.building.models.User com.e1858.building.controller.UserController.findUserById(int)
+2018-03-08 15:43:17.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteUser/{id}]}" onto public boolean com.e1858.building.controller.UserController.deleteUser(int)
+2018-03-08 15:43:17.927 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateUser],methods=[POST]}" onto public boolean com.e1858.building.controller.UserController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2018-03-08 15:43:17.930 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-08 15:43:17.931 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-08 15:43:17.963 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:43:17.963 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:43:17.997 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:43:18.191 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-08 15:43:18.192 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-08 15:43:18.197 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-08 15:43:18.210 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:43:18.220 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-08 15:43:18.233 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-08 15:43:18.235 [main] INFO  com.e1858.building.BuildingApplication - Started BuildingApplication in 4.234 seconds (JVM running for 5.166)
+2018-03-08 15:44:33.920 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-08 15:44:33.920 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-08 15:44:33.938 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-03-08 15:45:32.574 [main] INFO  com.e1858.building.BuildingApplication - Starting BuildingApplication on DESKTOP-NADFQ1H with PID 5312 (E:\GithubProject\Spring-boot\target\classes started by Feng2018 in E:\GithubProject\Spring-boot)
+2018-03-08 15:45:32.577 [main] INFO  com.e1858.building.BuildingApplication - No active profile set, falling back to default profiles: default
+2018-03-08 15:45:32.647 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a2f6f80: startup date [Thu Mar 08 15:45:32 CST 2018]; root of context hierarchy
+2018-03-08 15:45:33.633 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5189d38] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-08 15:45:33.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-08 15:45:33.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:45:33.921 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-08 15:45:33.921 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-08 15:45:33.925 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;F:\java\jdk1.8\bin;F:\Android_SDK\platform-tools;F:\Android_SDK\tools;F:\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\DB\bin;D:\Program Files\Git\cmd;C:\Users\Feng2018\AppData\Local\Microsoft\WindowsApps;;.]
+2018-03-08 15:45:34.031 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-08 15:45:34.032 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1385 ms
+2018-03-08 15:45:34.151 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-08 15:45:34.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-08 15:45:34.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-08 15:45:34.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-08 15:45:34.156 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-08 15:45:34.283 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-03-08 15:45:34.427 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-03-08 15:45:34.466 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:45:34.477 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-08 15:45:34.618 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-08 15:45:34.619 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-08 15:45:34.656 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-08 15:45:34.757 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-08 15:45:35.170 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-08 15:45:35.921 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a2f6f80: startup date [Thu Mar 08 15:45:32 CST 2018]; root of context hierarchy
+2018-03-08 15:45:35.949 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-08 15:45:35.978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/greeting]}" onto public com.e1858.building.models.Greeting com.e1858.building.controller.GreetingController.greeting(java.lang.String)
+2018-03-08 15:45:35.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.e1858.building.controller.HelloController.say()
+2018-03-08 15:45:35.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAllStudent]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.findAllStudent()
+2018-03-08 15:45:35.985 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addStudent],methods=[POST]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.addStudent(java.lang.String,java.lang.Integer)
+2018-03-08 15:45:35.985 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteStudent/{id}],methods=[DELETE]}" onto public void com.e1858.building.controller.StudentController.deleteStudent(java.lang.Integer)
+2018-03-08 15:45:35.985 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudentByName/{id}],methods=[GET]}" onto public java.util.List<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.String)
+2018-03-08 15:45:35.986 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getStudent/{id}],methods=[GET]}" onto public java.util.Optional<com.e1858.building.models.Student> com.e1858.building.controller.StudentController.getStudentById(java.lang.Integer)
+2018-03-08 15:45:35.986 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateStudent/{id}],methods=[PUT]}" onto public com.e1858.building.models.Student com.e1858.building.controller.StudentController.updateStudent(java.lang.Integer,java.lang.String,java.lang.Integer)
+2018-03-08 15:45:35.987 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/deleteUser/{id}]}" onto public boolean com.e1858.building.controller.UserController.deleteUser(int)
+2018-03-08 15:45:35.987 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUser]}" onto public boolean com.e1858.building.controller.UserController.inserUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2018-03-08 15:45:35.987 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateUser],methods=[POST]}" onto public boolean com.e1858.building.controller.UserController.updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int)
+2018-03-08 15:45:35.987 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUserById/{id}]}" onto public com.e1858.building.models.User com.e1858.building.controller.UserController.findUserById(int)
+2018-03-08 15:45:35.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findUsers]}" onto public java.util.List<com.e1858.building.models.User> com.e1858.building.controller.UserController.findAllUser()
+2018-03-08 15:45:35.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-08 15:45:35.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-08 15:45:36.023 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:45:36.023 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:45:36.056 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-08 15:45:36.251 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-08 15:45:36.252 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-08 15:45:36.257 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-08 15:45:36.268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-08 15:45:36.276 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-08 15:45:36.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-08 15:45:36.292 [main] INFO  com.e1858.building.BuildingApplication - Started BuildingApplication in 4.104 seconds (JVM running for 4.889)
+2018-03-08 15:45:40.647 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-08 15:45:40.647 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-08 15:45:40.665 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties">
+        <property name="org.apache.ibatis.parsing.PropertyParser.enable-default-value" value="false"/> <!--是否开启默认占位符 -->
+        <property name="username" value="${username:user}"/><!-- 如果properties中没有username，则使用user替代 -->
+    </properties>
+    <!--配置顺序很重要-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="lazyLoadingEnabled" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias type="com.e1858.building.models.Student" alias="Student"/>
+        <typeAlias type="com.e1858.building.models.User" alias="User"/>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+<mappers>
+    <mapper resource="mapper/User.xml"/>
+</mappers>
+</configuration>
